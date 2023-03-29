@@ -1,0 +1,88 @@
+.welcome h1{font-weight: 600;font-size: 64px;}
+.welcome h2{font-weight: 400;font-size: 32px;}
+.welcome h2{font-family:'Fonarto' !important;color: #4c7127;}
+.welcome h1{font-family:'FjallaOne' !important;color: #8a1a1a;}
+.welcome p{color: #776868;border-left: 3px solid #ddd;padding-left: 12px;margin-left: 0;background: #eee;}
+.welcome { min-height:20px; padding:19px; margin-bottom:20px; background-color:#f5f5f5; border:1px solid #e3e3e3; border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05); box-shadow:inset 0 1px 1px rgba(0,0,0,.05)}
+.btn,a,button {outline: none !important;}
+.btn:hover,a:hover,button:hover {outline: none !important;}
+
+.help-block {font-size: .8rem;color: #999 !important; font-style: italic;}
+.content-header {padding-bottom: 0 !important;}
+.setup-header h1{font-weight: 600;font-size: 48px;text-align: center;}
+.setup-header h2{font-weight: 400;font-size: 32px;text-align: center;}
+.setup-header h2{font-family:'Fonarto' !important;}
+.setup-header h1{font-family:'FjallaOne' !important;}
+.setup-header { min-height:20px; padding:19px; margin-bottom:20px;}
+
+.small-box-footer .btn{color:#fff}
+label[for]{font-weight: normal !important;}
+.vcenter {vertical-align: middle !important;}
+.helper-block{font-size: 11px;text-align: left;}
+input,textarea{border-radius: 0 .5rem 0 .5rem !important;}
+.card{border-radius: 0 1rem 0 1rem !important;}
+.card-footer .btn{border-radius: 0 .5rem 0 .5rem !important;}
+.content-header h1 {font-size: 2rem; margin: 0;font-weight: 600; font-variant: small-caps;}
+.content-header h1 small{font-size: 1.2rem; color: #777; padding-left: 12px;font-variant: normal;}
+.help-block{font-size:.8rem;}
+.pull-right {float: right !important;}
+.pull-left {float: left !important;}
+table.table-grid {width: 100%;}
+table.table-grid td, table.table-grid  th { padding: 0.2rem;border: 0;}
+p.output-file {font-size: 11px;border: 1px solid #FAEFD9;padding: 6px;font-style: oblique;background: #FAEFD9; margin: 0;margin-bottom: 1rem;}
+pre {background: #f0f0f0;}
+.no-border-top-right-radius{border-top-right-radius: 0 !important;}
+.trash-logo{font-size: 52px !important;width: 52px !important;height: 52px !important;}
+
+/** ICON BOX **/
+.icon-box{height:100%;width:100%;max-height:320px;overflow-x:scroll !important;min-height:200px}
+.icon-box .icon-list{font-size:26px !important;display:inline-block;width:100%;vertical-align:central;text-align:center;outline:none}
+.icon-box .icon-item{background:#fefefe;border: .5px solid #fff;}
+.icon-box .icon-item:hover{background:#ddd}
+
+.icon-box .icon {width: 32px !important;height: 32px; font-size: 32px;}
+.hidden {display: none !important;}
+.bootstrap-tagsinput .badge {margin: 2px !important;}
+.example-code {border: 1px solid #ddd;background: #eee;padding: 12px;margin: 12px 0 12px 0;white-space: nowrap !important;overflow: scroll !important;}
+
+.codemirror-note{border: 1px solid #ddd;padding: 12px;font-size: 11px;}
+.codemirror-note-default{border: 1px solid #eee;padding: 12px;background: #eee;}
+*.CodeMirror .read-only {background-color: #cccccc;}
+*.CodeMirror-fullscreen {z-index: 100000;}
+.brand-link{font-family:'FjallaOne' !important;font-weight: 400 !important;}
+
+.table-xs td, .table-xs th {padding: .2rem !important;}
+.table-xs{margin-bottom: .1rem !important;}
+.callout .btn-primary{color: #fff !important; text-decoration: none;}
+ 
+[class*="icheck-"] > input:first-child {max-width: 100px;}
+
+
+#treefiles{overflow:auto;border:1px solid #C0C0C0;min-height:100px;}
+#treefiles .jstree-icon{width:18px !important;height:18px !important;line-height:18px !important;}
+#treefiles .folder{background:url(./file_sprite.png) right bottom no-repeat;}
+#treefiles .file{background:url(./file_sprite.png) 0 0 no-repeat;}
+#treefiles .file-pdf{background-position:-32px 0}
+#treefiles .file-as{background-position:-36px 0}
+#treefiles .file-c{background-position:-72px -0px}
+#treefiles .file-iso{background-position:-108px -0px}
+#treefiles .file-htm,#treefiles .file-html,#treefiles .file-xml,#treefiles .file-xsl{background-position:-126px -0px}
+#treefiles .file-cf{background-position:-162px -0px}
+#treefiles .file-cpp{background-position:-216px -0px}
+#treefiles .file-cs{background-position:-236px -0px}
+#treefiles .file-sql{background-position:-272px -0px}
+#treefiles .file-xls,#treefiles .file-xlsx{background-position:-362px -0px}
+#treefiles .file-h{background-position:-488px -0px}
+#treefiles .file-crt,#treefiles .file-pem,#treefiles .file-cer{background-position:-452px -18px}
+#treefiles .file-php{background-position:-108px -18px}
+#treefiles .file-jpg,#treefiles .file-jpeg,#treefiles .file-png,#treefiles .file-gif,#treefiles .file-bmp{background-position:-126px -18px}
+#treefiles .file-ppt,#treefiles .file-pptx{background-position:-144px -18px}
+#treefiles .file-rb{background-position:-180px -18px}
+#treefiles .file-text,#treefiles .file-txt,#treefiles .file-md,#treefiles .file-log,#treefiles .file-htaccess{background-position:-254px -18px}
+#treefiles .file-doc,#treefiles .file-docx{background-position:-362px -18px}
+#treefiles .file-zip,#treefiles .file-gz,#treefiles .file-tar,#treefiles .file-rar{background-position:-416px -18px}
+#treefiles .file-js{background-position:-434px -18px}
+#treefiles .file-css{background-position:-144px -0px}
+#treefiles .file-fla{background-position:-398px -0px}
+    
+    
